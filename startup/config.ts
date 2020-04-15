@@ -1,9 +1,10 @@
 "use strict"
 
+import { Application } from "express"
 const config = require('config')
 const morgan = require('morgan')
 
-module.exports = function (app) {
+module.exports = function (app:Application) {
     //develop on app startup
     const debug = require('debug')('app:startup')
     //Configuration
