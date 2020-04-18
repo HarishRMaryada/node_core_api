@@ -8,7 +8,7 @@
     "tsc": "tsc",
     "start": "ts-node-dev --respawn --transpileOnly ./index.ts",
     "start:watch": "nodemon",
-    "start-prod": "tsc && node ./build/index.js"
+    "start-prod": "tsc && node ./dist/index.js"
   },
   "nodemonConfig": {
     "ignore": [
